@@ -9,8 +9,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
-    //0 - X     1 - O   2 - Blank
     int count=0, Xwin=0 ,Owin=0;
     boolean gameActive=true;
     int activePlayer=0;
